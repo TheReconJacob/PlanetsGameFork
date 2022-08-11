@@ -46,7 +46,7 @@ public class RandomPatrol : MonoBehaviour
     {
         if(collision.tag == "Planets")
         {
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("MainMenu");
             Debug.Log("GAME OVER! UNLUCKY!");
 
         }
